@@ -139,7 +139,7 @@ export default function HeroSleek() {
                             <h3 className={styles.title}>Smart EV Infrastructure at your fingertips</h3>
                             <p className={styles.description}>Any Time and Anywhere</p>
                         </div>
-                        <a href="/services" className="flex items-center gap-3">
+                        <a href="/Services" className="flex items-center gap-3">
                             <button className={styles.ctaButton}>
                                 <span className={styles.buttonText}>Fleet Care</span>
                             </button>

@@ -186,7 +186,7 @@ const ServicesDetails = () => {
                                                 <FaClock />
                                             </div>
                                             <input type="number" id='pickuptime' placeholder='pickup timing' name='pickuptime' onChange={handleInputChange}
-                                                value={formData.pickupTime} onFocus={() => handleFocus('pickuptime')} onBlur={handleBlur} required className={carDetailStyles.inputField} />
+                                                value={formData.pickupTime} onFocus={() => handleFocus('pickuptime')} onBlur={handleBlur}  className={carDetailStyles.inputField} />
                                         </div>
                                     </div>
 

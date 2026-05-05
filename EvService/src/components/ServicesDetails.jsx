@@ -238,7 +238,7 @@ const ServicesDetails = () => {
                                                 <FaPhone />
                                             </div>
                                             <input type="tel" id='phone' placeholder='Your Contact' name='Phone' onChange={handleInputChange}
-                                                value={formData.phone} onFocus={() => handleFocus('phone')} onBlur={handleBlur} required className={carDetailStyles.inputField} />
+                                                value={formData.phone} onFocus={() => handleFocus('phone')} onBlur={handleBlur}  className={carDetailStyles.inputField} />
                                         </div>
                                     </div>
                                 </div>
